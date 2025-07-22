@@ -18,7 +18,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  opacity: 0.1;       /* transparencia */
+  opacity: 0.5;       /* transparencia */
   transform: translate(-50%, -50%);
   pointer-events: none; /* para que no interfiera con clicks */
   z-index: 0;
