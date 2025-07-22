@@ -20,7 +20,7 @@ function generarPIN() {
 
 export default function App() {
   const [cantidades, setCantidades] = useState(
-    productos.reduce((acc, p) => ({ ...acc, [p.id]: 1 }), {})
+    productos.reduce((acc, p) => ({ ...acc, [p.id]: 0 }), {})
   );
   const [recibo, setRecibo] = useState(null);
 
