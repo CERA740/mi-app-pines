@@ -135,7 +135,17 @@ export default function App() {
   };
 
   return (
-    <div className="App" style={estilos.contenedor}>
+  <div className="App" style={estilos.contenedor}>
+    <img
+      src="logo-cera.png"
+      alt="Logo CERA"
+      style={{
+        width: "150px",
+        display: "block",
+        margin: "0 auto 20px auto",
+        opacity: 0.5,
+      }}
+    />
       <h2 style={estilos.titulo}>Elige productos y cantidad</h2>
       <table style={estilos.tabla}>
         <thead>
