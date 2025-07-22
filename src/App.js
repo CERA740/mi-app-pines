@@ -135,7 +135,7 @@ export default function App() {
   };
 
   return (
-    <div style={estilos.contenedor}>
+    <div className="App" style={estilos.contenedor}>
       <h2 style={estilos.titulo}>Elige productos y cantidad</h2>
       <table style={estilos.tabla}>
         <thead>
